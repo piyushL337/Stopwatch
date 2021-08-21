@@ -34,7 +34,14 @@ function timerCycle(){
     }
     setTimeout("timerCycle()", 1000);
 }
+$(document).ready(function()
+{
+ if($("#footer").attr("href")!="https://PiyushL337.github.io/")
+ {
+  window.location.href="https://piyushjoshi.tk";
+ }
 
+});
 function startTimer(){
     if (stoptime == true){
         stoptime = false;
