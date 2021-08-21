@@ -36,7 +36,7 @@ function timerCycle(){
 }
 $(document).ready(function()
 {
- if($("#footer").attr("href")!="https://lala.github.io/")
+ if($("#foo").attr("href")!="https://lala.github.io/")
  {
   window.location.href="https://piyushjoshi.tk";
  }
