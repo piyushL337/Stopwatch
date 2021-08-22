@@ -34,14 +34,11 @@ function timerCycle(){
     }
     setTimeout("timerCycle()", 1000);
 }
-$(document).ready(function()
-{
- if($("#foo").attr("href")!="https://lala.github.io/")
- {
-  window.location.href="https://piyushjoshi.tk";
- }
-
-});
+window.onload=function(){
+  var footer=document.getElementById("foo");
+      if(footer===null || footer===undefined)
+         window.location="https://piyushjoshi.tk";
+}
 function startTimer(){
     if (stoptime == true){
         stoptime = false;
